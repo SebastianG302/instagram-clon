@@ -25,3 +25,14 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## attributions
+
+icon arrow down
+Arrow icons created by th studio - Flaticon
+
+<a href="https://www.flaticon.com/free-icons/instagram" title="instagram icons">Instagram icons created by pictranoosa - Flaticon</a>
+
+<a href="https://www.flaticon.com/free-icons/instagram" title="instagram icons">Instagram icons created by pictranoosa - Flaticon</a>
+<a href="https://www.flaticon.es/iconos-gratis/mas" title="más iconos">Más iconos creados por gariebaldy - Flaticon</a>
+<a href="https://www.flaticon.es/iconos-gratis/corazon" title="corazón iconos">Corazón iconos creados por Pixel perfect - Flaticon</a>
