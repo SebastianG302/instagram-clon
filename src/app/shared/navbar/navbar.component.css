@@ -1,13 +1,11 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+
 
 nav{
     background-color: white;
     width: 100%;
     height: 60px;
     border-bottom: 1px solid rgb(218, 218, 218);
+    min-width: 400px;
 }
 input{
     border: none;
@@ -21,6 +19,7 @@ input{
     width: 100%;
     height: 100%;
     max-width: 975px;
+    min-width: 400px;
     box-sizing: border-box;
     margin: 0 auto;
     display: flex;
@@ -63,9 +62,9 @@ input{
     display: flex;
     align-items: center;
     position: relative;
+    margin-right: 10px;
 }
 .icon-collection{
-
     flex: 1 0 127px;
     display: flex;
     position: relative;
@@ -88,6 +87,10 @@ a .icons-instagram{
 }
 
 @media (max-width: 700px) {
+    .logo{
+        flex: none;
+    }
+
     .input{
         display: none;
     }
@@ -100,8 +103,9 @@ a .icons-instagram{
 
     a .icons-instagram{
         margin-right: 20px;
-    
     }
-    
+
 
   }
+
+  
