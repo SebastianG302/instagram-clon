@@ -50,6 +50,11 @@ input{
 }
 .icons-instagram{
     width: 23px;
+    height: 23px;
+}
+
+.icons-instagram:hover{
+    cursor: pointer;
 }
 
 .input{
@@ -72,7 +77,7 @@ input{
 
 }
 
-a .icons-instagram{
+.icons-instagram{
     display: flex;
     margin-right: 23px;
 
@@ -99,9 +104,10 @@ a .icons-instagram{
     }
     .icons-instagram{
         width: 20px;
+        height: 20px;
     }
 
-    a .icons-instagram{
+    .icons-instagram{
         margin-right: 20px;
     }
 
