@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ProfileDescriptionComponent } from './profile-description/profile-description.component';
+import { RoutingModule } from '../routing.module';
 
 
 
@@ -11,7 +12,8 @@ import { ProfileDescriptionComponent } from './profile-description/profile-descr
     ProfileDescriptionComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RoutingModule
   ],
   exports: [
     NavbarComponent,

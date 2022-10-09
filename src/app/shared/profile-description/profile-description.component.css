@@ -116,6 +116,7 @@ li{
 }
 .addStory p{
     font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 900;
     font-size: 13px;
     margin-top: 10px;
 }
@@ -127,7 +128,44 @@ li{
     display: flex;
     flex-direction: column;
 }
+.nav-posts{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
 
+.nav-buttons{
+    width: 100%;
+    max-width: 935px;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid rgb(218, 218, 218);
+    margin: 50px 22px 0px 22px;
+
+}
+
+.nav-buttons ul{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.nav-buttons li{
+
+    padding: 15px 5px 0 5px;
+    margin-bottom: 0 !important;
+    margin-top: -1px;
+    margin-right: 43px;
+    color:rgb(177, 177, 177);
+}
+
+.active{
+    color: black !important;
+    font-weight: 500;
+    border-top: 1.8px solid black;
+}
+li:hover{
+    cursor: pointer;
+}
 
 @media (max-width: 740px) {
     button{
