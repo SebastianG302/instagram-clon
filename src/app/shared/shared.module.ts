@@ -3,13 +3,15 @@ import { CommonModule } from '@angular/common';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ProfileDescriptionComponent } from './profile-description/profile-description.component';
 import { RoutingModule } from '../routing.module';
+import { FooterComponent } from './footer/footer.component';
 
 
 
 @NgModule({
   declarations: [
     NavbarComponent,
-    ProfileDescriptionComponent
+    ProfileDescriptionComponent,
+    FooterComponent
   ],
   imports: [
     CommonModule,
@@ -17,7 +19,8 @@ import { RoutingModule } from '../routing.module';
   ],
   exports: [
     NavbarComponent,
-    ProfileDescriptionComponent
+    ProfileDescriptionComponent,
+    FooterComponent
   ]
 })
 export class SharedModule { }
