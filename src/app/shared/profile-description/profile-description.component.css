@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
-:root{
+
+:root {
     --font: 'Nanum Gothic', sans-serif;
 }
-
-button{
+.click:hover{
+    cursor: pointer;
+}
+button {
     padding: 7px 9px;
     background-color: #FAFAFA;
     border: 1px solid rgb(218, 218, 218);
@@ -14,36 +17,37 @@ button{
 
 }
 
-h2{
+h2 {
     font-family: 'Nanum Gothic', sans-serif;
     font-weight: 100;
     letter-spacing: 0.5px;
-    color: rgb(38,38,38);
-    
+    color: rgb(38, 38, 38);
+
 }
 
-ul{
+ul {
     margin: 30px 0;
     display: flex;
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 15px;
 }
 
-li{
+li {
     list-style: none;
     margin-right: 40px;
 }
 
-.main{
+.main {
     display: flex;
     flex-direction: column;
 }
-.icon{
+
+.icon {
     width: 24px;
     margin-top: 2px;
 }
 
-#user{
+#user {
     margin: 0 auto;
     width: 100%;
     max-width: 900px;
@@ -52,29 +56,27 @@ li{
     flex-direction: row;
 }
 
-.user-picture{
+.user-picture {
     width: 250px;
     display: flex;
     justify-content: center;
 }
 
-.user-config{
+.user-config {
     display: flex;
     flex-direction: row;
-
 }
 
-.user-image{
+.user-image {
     border-radius: 50%;
 }
 
-.user-name{
+.user-name {
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 15px;
-
-
 }
-.responsive-name{
+
+.responsive-name {
     display: none;
     width: 95%;
     margin: 0 auto;
@@ -84,14 +86,15 @@ li{
     display: flex;
 }
 
-.responsive{
+.responsive {
     display: none;
 }
-.user-description{
+
+.user-description {
     margin-left: 45px;
 }
 
-.story{
+.story {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -107,36 +110,39 @@ li{
     height: 60px;
 }
 
-.addStory{
+.addStory {
     display: flex;
     width: 87px;
     flex-direction: column;
     align-items: center;
 }
-.addStory p{
+
+.addStory p {
     font-family: 'Nanum Gothic', sans-serif;
     font-weight: 900;
     font-size: 13px;
     margin-top: 10px;
 }
-.stories{
-    margin: 0 auto;
 
+.stories {
+    margin: 0 auto;
     max-width: 880px;
     padding: 5px 35px;
     display: flex;
     flex-direction: column;
 }
-.nav-posts{
+
+.nav-posts {
     width: 100%;
+    min-width: 400px;
     display: flex;
     justify-content: center;
-    
 }
 
-.nav-buttons{
+.nav-buttons {
     width: 100%;
     max-width: 935px;
+    min-width: 400px;
     display: flex;
     justify-content: center;
     border-top: 1px solid rgb(218, 218, 218);
@@ -144,75 +150,87 @@ li{
 
 }
 
-.nav-buttons ul{
+.nav-buttons ul {
     margin-top: 0;
     margin-bottom: 0;
 }
-.nav-buttons li{
+
+.nav-buttons li {
 
     padding: 15px 5px 0 5px;
     margin-bottom: 0 !important;
     margin-top: -1px;
     margin-right: 43px;
-    color:rgb(177, 177, 177);
+    color: rgb(177, 177, 177);
 }
 
-.active{
+.active {
     color: black !important;
     font-weight: 500;
     border-top: 1.8px solid black;
 }
-li:hover{
+
+li:hover {
     cursor: pointer;
 }
 
 @media (max-width: 740px) {
-    button{
+    button {
         display: none;
         width: 100%;
         max-width: 200px;
         margin: 10px 0px;
     }
-    h2{
+
+    h2 {
         margin-right: 5px;
     }
-    .responsive-name{
+
+    .responsive-name {
         font-size: 13px;
         margin-top: 20px;
 
     }
-    #user{
+
+    #user {
         padding-top: 20px;
         padding-bottom: 0px;
     }
-    .user-image{
+
+    .user-image {
         width: 77px;
         height: 77px;
     }
-    .user-picture{
+
+    .user-picture {
         width: 125px;
         height: 77px;
         min-width: 100px;
     }
-    .user-description{
+
+    .user-description {
         width: 100%;
         margin: 0 0 0 10px;
     }
-    .user-information{
+
+    .user-information {
         display: none;
     }
-    .user-name{
+
+    .user-name {
         display: none;
     }
-    .responsive{
+
+    .responsive {
         display: block;
     }
 
-    .story{
+    .story {
         width: 60px;
         height: 60px;
     }
-    .stories{
+
+    .stories {
         padding: 25px 0px;
     }
 
@@ -221,18 +239,16 @@ li:hover{
         height: 35px;
     }
 
-    .addStory p{
+    .addStory p {
         font-size: 11px;
         margin-top: 7px;
         font-weight: 100;
     }
 
-    .nav-buttons{
-
+    .nav-buttons {
         margin: 5px 22px 0px 22px;
-    
+
     }
 
 
 }
-
